@@ -105,6 +105,9 @@
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                     <color key="baseForegroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="daF-Wz-IbF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usu-Vf-ET6">
                                                 <rect key="frame" x="82" y="113.66666666666667" width="250" height="37.333333333333329"/>
@@ -117,6 +120,9 @@
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                     <color key="baseForegroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="do2-Vz-vHx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gng-Vv-6pY">
                                                 <rect key="frame" x="82" y="167.99999999999994" width="250" height="37.333333333333343"/>
@@ -129,6 +135,9 @@
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                     <color key="baseForegroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b5F-vt-Dv6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5At-DC-nIA">
                                                 <rect key="frame" x="82" y="221.33333333333331" width="250" height="37.333333333333314"/>
@@ -141,6 +150,9 @@
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                                     <color key="baseForegroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RaX-Nt-tN0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.9473627289386779" blue="0.78045171735928809" alpha="0.17298737582781451" colorSpace="custom" customColorSpace="displayP3"/>
@@ -182,8 +194,14 @@
                     </view>
                     <connections>
                         <outlet property="flagView" destination="YXR-tu-l2s" id="ara-hA-iMQ"/>
-                        <outlet property="progressView" destination="zVg-AI-0eu" id="k6I-V2-7bv"/>
-                        <outlet property="questionCounter" destination="kds-ke-OUf" id="ZTF-g6-41M"/>
+                        <outlet property="optionA" destination="a1a-Na-pZa" id="jaX-gV-h0C"/>
+                        <outlet property="optionB" destination="usu-Vf-ET6" id="PtD-vL-4r7"/>
+                        <outlet property="optionC" destination="gng-Vv-6pY" id="8JA-3Q-uGT"/>
+                        <outlet property="optionD" destination="5At-DC-nIA" id="xFv-jo-tCM"/>
+                        <outlet property="photoView" destination="YXR-tu-l2s" id="6Yi-er-Cns"/>
+                        <outlet property="progressView" destination="zVg-AI-0eu" id="LNk-tX-7zF"/>
+                        <outlet property="questionCounter" destination="tN2-bY-27t" id="QOe-gk-V1C"/>
+                        <outlet property="questionLabel" destination="6ZO-es-Zwz" id="AAk-xp-wg0"/>
                         <outlet property="scoreLabel" destination="tN2-bY-27t" id="l7j-Hm-oTa"/>
                     </connections>
                 </viewController>

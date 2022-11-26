@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32ACDA742932C6870013F263 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACDA732932C6870013F263 /* Question.swift */; };
+		32ACDA762932C8370013F263 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACDA752932C8370013F263 /* QuestionBank.swift */; };
 		32DFE4D92931CE6C0068F192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFE4D82931CE6C0068F192 /* AppDelegate.swift */; };
 		32DFE4DB2931CE6C0068F192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFE4DA2931CE6C0068F192 /* SceneDelegate.swift */; };
 		32DFE4DD2931CE6C0068F192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFE4DC2931CE6C0068F192 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32ACDA732932C6870013F263 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		32ACDA752932C8370013F263 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		32DFE4D52931CE6C0068F192 /* GK Quiz iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GK Quiz iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DFE4D82931CE6C0068F192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32DFE4DA2931CE6C0068F192 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32ACDA722932C63C0013F263 /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				32ACDA732932C6870013F263 /* Question.swift */,
+				32ACDA752932C8370013F263 /* QuestionBank.swift */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
 		32DFE4CC2931CE6C0068F192 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		32DFE4D72931CE6C0068F192 /* GK Quiz iOS */ = {
 			isa = PBXGroup;
 			children = (
+				32ACDA722932C63C0013F263 /* Model  */,
 				32DFE5082932023B0068F192 /* Controller */,
 				32DFE509293202660068F192 /* View */,
 				32DFE50A2932028D0068F192 /* Supporting Files */,
@@ -283,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DFE4DD2931CE6C0068F192 /* ViewController.swift in Sources */,
+				32ACDA742932C6870013F263 /* Question.swift in Sources */,
 				32DFE4D92931CE6C0068F192 /* AppDelegate.swift in Sources */,
+				32ACDA762932C8370013F263 /* QuestionBank.swift in Sources */,
 				32DFE4DB2931CE6C0068F192 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
