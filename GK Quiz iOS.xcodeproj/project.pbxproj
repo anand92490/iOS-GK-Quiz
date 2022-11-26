@@ -99,13 +99,9 @@
 		32DFE4D72931CE6C0068F192 /* GK Quiz iOS */ = {
 			isa = PBXGroup;
 			children = (
-				32DFE4D82931CE6C0068F192 /* AppDelegate.swift */,
-				32DFE4DA2931CE6C0068F192 /* SceneDelegate.swift */,
-				32DFE4DC2931CE6C0068F192 /* ViewController.swift */,
-				32DFE4DE2931CE6C0068F192 /* Main.storyboard */,
-				32DFE4E12931CE6D0068F192 /* Assets.xcassets */,
-				32DFE4E32931CE6D0068F192 /* LaunchScreen.storyboard */,
-				32DFE4E62931CE6D0068F192 /* Info.plist */,
+				32DFE5082932023B0068F192 /* Controller */,
+				32DFE509293202660068F192 /* View */,
+				32DFE50A2932028D0068F192 /* Supporting Files */,
 			);
 			path = "GK Quiz iOS";
 			sourceTree = "<group>";
@@ -125,6 +121,34 @@
 				32DFE4FB2931CE6D0068F192 /* GK_Quiz_iOSUITestsLaunchTests.swift */,
 			);
 			path = "GK Quiz iOSUITests";
+			sourceTree = "<group>";
+		};
+		32DFE5082932023B0068F192 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32DFE4DC2931CE6C0068F192 /* ViewController.swift */,
+				32DFE4D82931CE6C0068F192 /* AppDelegate.swift */,
+				32DFE4DA2931CE6C0068F192 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32DFE509293202660068F192 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32DFE4DE2931CE6C0068F192 /* Main.storyboard */,
+				32DFE4E12931CE6D0068F192 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32DFE50A2932028D0068F192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32DFE4E32931CE6D0068F192 /* LaunchScreen.storyboard */,
+				32DFE4E62931CE6D0068F192 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,10 +463,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5JBZP6WHVV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GK Quiz iOS/Info.plist";
+				INFOPLIST_FILE = "GK Quiz iOS/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,10 +493,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5JBZP6WHVV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GK Quiz iOS/Info.plist";
+				INFOPLIST_FILE = "GK Quiz iOS/Supporting Files/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
