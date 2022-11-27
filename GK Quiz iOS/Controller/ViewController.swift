@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var optionC: UIButton!
     @IBOutlet weak var optionD: UIButton!
     
-    
     //
     let allQuestions = QuestionBank()
     var questionNumber: Int = 0
@@ -33,6 +32,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateQuestion()
         updateUI()
+        
+        optionA.layer.cornerRadius = 10
+        optionA.layer.borderWidth = 2
+        optionA.layer.borderColor = UIColor.black.cgColor
+        
+        optionB.layer.cornerRadius = 10
+        optionB.layer.borderWidth = 2
+        optionB.layer.borderColor = UIColor.black.cgColor
+        
+        optionC.layer.cornerRadius = 10
+        optionC.layer.borderWidth = 2
+        optionC.layer.borderColor = UIColor.black.cgColor
+        
+        optionD.layer.cornerRadius = 10
+        optionD.layer.borderWidth = 2
+        optionD.layer.borderColor = UIColor.black.cgColor
+        
     }
     
     
