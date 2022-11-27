@@ -38,10 +38,20 @@ class ViewController: UIViewController {
     
     @IBAction func answerPressed(_ sender: UIButton) {
         if sender.tag == selectedAnswer{
-            print("Correct")
+          let correctAlert =   UIAlertController(title: "Your answer is", message: "Correct ✅", preferredStyle: .alert)
+            present(correctAlert, animated: true, completion: nil)
+            
+            let nextQuestion =  UIAlertAction(title: "Next Question", style: .default, handler: {action in self.updateQuestion()})
+            correctAlert.addAction(nextQuestion)
+            //print("Correct")
             score += 1
         }else{
-            print("Incorrect")
+            let wrongAlert =   UIAlertController(title: "Your answer is", message: "Wrong ❌", preferredStyle: .alert)
+              present(wrongAlert, animated: true, completion: nil)
+              
+              let nextQuestion =  UIAlertAction(title: "Next Question", style: .default, handler: {action in self.updateQuestion()})
+                  wrongAlert.addAction(nextQuestion)
+            //print("Incorrect")
         }
         questionNumber += 1
         updateQuestion()
@@ -50,7 +60,7 @@ class ViewController: UIViewController {
     
     func updateQuestion(){
       
-        if questionNumber < allQuestions.list.count{
+        if questionNumber < allQuestions.list.count - 1{
             flagView.image = UIImage(named: (allQuestions.list[questionNumber].questionImage))
             questionLabel.text = allQuestions.list[questionNumber].question
             optionA.setTitle(allQuestions.list[questionNumber].optionA, for: UIControl.State.normal)
@@ -72,7 +82,7 @@ class ViewController: UIViewController {
     
     func updateUI(){
         scoreLabel.text = "Score: \(score) "
-        questionCounter.text = "\(questionNumber)/\(allQuestions.list.count)"
+        questionCounter.text = "\(questionNumber + 1)/\(allQuestions.list.count)"
         progressView.frame.size.width = (view.frame.size.width / CGFloat(allQuestions.list.count) * CGFloat(questionNumber + 1))
     }
     
