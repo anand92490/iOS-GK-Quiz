@@ -6,10 +6,10 @@
 //
 
 import Foundation
-
+//
 class QuestionBank{
     var list = [Question]()
-    
+
     func int(){
         //1
         list.append(Question(image: "blackbird", questionText: "What is the fastest airplane in the world?", choiceA: "Lockheed SR-71 Blackbird", choiceB: "Lockheed YF-12", choiceC: "XB-70 Valkyrie", choiceD: "Bell X-2 Starbuster", answer: 1))
@@ -31,6 +31,6 @@ class QuestionBank{
         list.append(Question(image: "soviet", questionText: "Which country was NOT part of the Soviet Union?", choiceA: "Azerbaijan", choiceB: "Romania", choiceC: "Kyrgyzstan", choiceD: "Estonia", answer: 2))
         //10
         list.append(Question(image: "peregrine_falcon", questionText: "What is the world's fastest bird?", choiceA: "The Peregrine Falcon", choiceB: "Golden Eagle", choiceC: "Pigeon", choiceD: "Frigate Bird", answer: 1))
-        
+
     }
 }

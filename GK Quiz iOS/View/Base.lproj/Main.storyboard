@@ -76,6 +76,7 @@
                                             <constraint firstItem="6ZO-es-Zwz" firstAttribute="centerX" secondItem="Otb-yT-qRm" secondAttribute="centerX" id="7hH-LJ-cIY"/>
                                             <constraint firstAttribute="trailing" secondItem="YXR-tu-l2s" secondAttribute="trailing" constant="15" id="9Ws-qZ-LwV"/>
                                             <constraint firstItem="YXR-tu-l2s" firstAttribute="leading" secondItem="Otb-yT-qRm" secondAttribute="leading" constant="15" id="F9K-Oc-1aX"/>
+                                            <constraint firstAttribute="bottom" secondItem="6ZO-es-Zwz" secondAttribute="bottom" constant="8" id="HOy-pE-3CD"/>
                                             <constraint firstItem="6ZO-es-Zwz" firstAttribute="leading" secondItem="Otb-yT-qRm" secondAttribute="leading" constant="15" id="IWZ-UP-Q0S"/>
                                             <constraint firstAttribute="bottom" secondItem="6ZO-es-Zwz" secondAttribute="bottom" constant="7.6699999999999999" id="JAj-Yp-Dxl"/>
                                             <constraint firstItem="6ZO-es-Zwz" firstAttribute="leading" secondItem="Otb-yT-qRm" secondAttribute="leading" constant="15" id="KCm-oW-uFu"/>
@@ -193,16 +194,15 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="flagView" destination="YXR-tu-l2s" id="ara-hA-iMQ"/>
+                        <outlet property="flagView" destination="YXR-tu-l2s" id="H4L-Qj-z6r"/>
                         <outlet property="optionA" destination="a1a-Na-pZa" id="jaX-gV-h0C"/>
                         <outlet property="optionB" destination="usu-Vf-ET6" id="PtD-vL-4r7"/>
                         <outlet property="optionC" destination="gng-Vv-6pY" id="8JA-3Q-uGT"/>
                         <outlet property="optionD" destination="5At-DC-nIA" id="xFv-jo-tCM"/>
-                        <outlet property="photoView" destination="YXR-tu-l2s" id="6Yi-er-Cns"/>
                         <outlet property="progressView" destination="zVg-AI-0eu" id="LNk-tX-7zF"/>
                         <outlet property="questionCounter" destination="tN2-bY-27t" id="QOe-gk-V1C"/>
                         <outlet property="questionLabel" destination="6ZO-es-Zwz" id="AAk-xp-wg0"/>
-                        <outlet property="scoreLabel" destination="tN2-bY-27t" id="l7j-Hm-oTa"/>
+                        <outlet property="scoreLabel" destination="kds-ke-OUf" id="ymX-7x-OaU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
