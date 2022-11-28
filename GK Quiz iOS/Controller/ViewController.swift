@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionCounter: UILabel!
     @IBOutlet weak var progressView: UIView!
     @IBOutlet weak var flagView: UIImageView!
+   
     // outlet for buttons
-    
     @IBOutlet weak var optionA: UIButton!
     @IBOutlet weak var optionB: UIButton!
     @IBOutlet weak var optionC: UIButton!
@@ -32,11 +32,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateQuestion()
         updateUI()
-        
+        // changing styles for options
         optionA.layer.cornerRadius = 10
         optionA.layer.borderWidth = 2
         optionA.layer.borderColor = UIColor.black.cgColor
-        
+
         optionB.layer.cornerRadius = 10
         optionB.layer.borderWidth = 2
         optionB.layer.borderColor = UIColor.black.cgColor
