@@ -20,7 +20,7 @@ class QuestionBank{
         //4
         list.append(Question(image: "africa", questionText: "Which African country was formerly known as Abyssinia?", choiceA: "Ethiopia", choiceB: "Eritrea", choiceC: "Tanzania", choiceD: "Somalia", answer: 1))
         //5
-        list.append(Question(image: "president", questionText: "How many presidents does bosnia have?", choiceA: "2", choiceB: "3", choiceC: "4", choiceD: "6", answer: 2))
+        list.append(Question(image: "president", questionText: "How many presidents does Bosnia have?", choiceA: "2", choiceB: "3", choiceC: "4", choiceD: "6", answer: 2))
         //6
         list.append(Question(image: "panda", questionText: "What is a group of pandas known as?", choiceA: "An Embarrassment", choiceB: "Nursery", choiceC: "Sloth", choiceD: "Pack", answer: 1))
         //7
